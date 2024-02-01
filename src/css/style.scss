@@ -1,0 +1,222 @@
+/* === start reyset === */
+@import "sass/global/reyset";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    // padding-top: 50px;
+}
+
+:root {
+    /*
+    colors
+    */
+    --main-color: #4a79ba;
+    --secondray-color: #5065a0;
+    --third-color: #162052;
+    --fourth-color: #2c4755;
+
+    --theme-color-primary: #5065a0;
+    --theme-color-secondary: #ff7f7f;
+    --theme-color-gradient: #27394f;
+
+    // section
+    --section-bg-1: #162052;
+    --section-bg-2: #eee;
+    --section-bg-3: #fff;
+    --section-bg-4: linear-gradient(to bottom, #5065a0, #27394f);
+    --section-bg-5: linear-gradient(to bottom, rgba(255, 255, 255, 0.5725490196), rgba(255, 255, 255, 0.5764705882));
+
+
+    // card
+    --card-bg-1: #fff;
+    --card-bg-2: #8d89898c;
+    --card-bg-3: linear-gradient(to right, #5065a0, #27394f);
+    --card-bg-4: #f6f6f6;
+    --card-bg-5: #fff;
+    --card-bg-6: #fffc;
+
+    // staitc
+    --font-color-1: #fff;
+    --font-color-2: #dededecc;
+    --font-color-3: #18181b;
+    // font replace
+    --font-color-4: #18181b;
+    --font-color-5: #585757;
+    --font-color-6: #5065a0;
+
+    // border
+    --border-color-1: #f2f2f2;
+    --border-color-2: #d9d8d8;
+
+    /**
+     * box shadow
+     */
+    --shadow-1: 0px 1px 10px #d9d8d8;
+    --shadow-2: 0 0 20px 4px #0000000d;
+
+    // goicon
+    --icon-color: #363745;
+    --container-color: #fafaff;
+
+    /**
+     * transition
+     */
+    --main-transition: all 0.5s;
+    --transition-1: all 1s;
+
+    /**
+     * spacing
+     */
+    --padding-sc: 50px;
+}
+body.dark_mode {
+    /**
+     * colors
+     */
+    --main-color: #4a79ba;
+    --secondray-color: #5065a0;
+    --third-color: #162052;
+
+    // --main-color: #37244c;
+    // --secondray-color: #f4742a;
+    // --third-color: #261e2f;
+    --gray-color: #d6d6d6;
+    --gray-color-2: #37244c;
+
+    // section
+    --section-bg-1: #141414;
+    --section-bg-2: #212f3d;
+    --section-bg-3: #141414;
+    --section-bg-4: linear-gradient(to bottom, #141414, #141414);
+    --section-bg-5: linear-gradient(to bottom, #000000, rgb(0 0 0));
+
+    // card
+    --card-bg-1: #151515;
+    --card-bg-2: #212f3d;
+    --card-bg-3: #212f3d;
+    --card-bg-4: #212f3d;
+    --card-bg-5: #212f3d;
+    --card-bg-6: #212f3d;
+
+    // font staitc
+    --font-color-1: #fff;
+    --font-color-2: #dededecc;
+    --font-color-3: #18181b;
+    // font replace
+    --font-color-4: #fff;
+    --font-color-5: #d9d8d8;
+    --font-color-6: #d9d8d8;
+
+    // border
+    --border-color: #f0eef1;
+    --border-color-2: #d9d8d8;
+
+    /**
+     * box shadow
+     */
+    --shadow-1: 0px 1px 20px #000;
+    --shadow-2: 0 0 20px 4px #ffffff14;
+
+    // goicon
+    --icon-color: #363745;
+    --container-color: #fafaff;
+
+    background-color: #141414;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* start global */
+@import "sass/global/global";
+
+/* start errorpage */
+@import "sass/global/errorpage";
+
+/* start header */
+@import "sass/global/header";
+
+/* start address */
+@import "sass/global/address";
+
+/* start landing */
+@import "sass/public/landesign";
+
+/* start aboutus */
+@import "sass/public/aboutus";
+
+/* start Advertisement */
+@import "sass/global/ads";
+
+/* start services */
+@import "sass/services/services";
+
+@import "sass/services/com-service";
+
+/* start Materials*/
+@import "sass/materials/materials";
+
+@import "sass/materials/materialsinfo";
+
+@import "sass/materials/personal";
+
+/* start contact */
+@import "sass/global/contact";
+
+/* start footer */
+@import "sass/global/footer";
+
+// icons
+/* start header */
+@import "sass/global/goicon";
+
+/* start social */
+@import "sass/global/social";
+
+// start dashboard
+// dashcreateser
+@import "sass/dashboard/dashcreateser";
+
+/* ========== start media Queries =============== */
+
+/* start max 767px */
+@media (max-width: 767px) {
+}
+
+/* start min 768 */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* start max 991 */
+@media (max-width: 991px) {
+}
+
+/* start min 992 */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* start min 1200 */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* ========== end media Queries =============== */

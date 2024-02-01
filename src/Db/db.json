@@ -1,0 +1,66 @@
+{
+    "aboutus": [
+        {
+            "aTitle": "Ahmed ElSayed",
+            "aJob": "Graphic Desgin",
+            "akey1": "Graphic Desgin",
+            "akey2": "Experience 4 Years",
+            "akey3": "I Work Fry Lancer",
+            "akey4": "I Write Books",
+            "akey5": "Dump PDF Files To Word",
+            "akey6": "Master's Messages",
+            "id": 1
+        }
+    ],
+    "header": [
+        {
+            "image": ""
+        }
+    ],
+    "cardservices": [
+        {
+            "image": "",
+            "title": "Dump PDF Files To Word",
+            "info1": "www",
+            "info2": "www",
+            "info3": "www",
+            "info4": "www",
+            "info5": "www",
+            "id": 1
+        }
+    ],
+    "services": [
+        {
+            "image": "../../images/services/service1.jpg",
+            "title": "Dump PDF Files To Word",
+            "description": "Write 10 Arabic Language Pages (Page 250 Words)",
+            "Link": "/Service1",
+            "href": "",
+            "id": 1
+        },
+        {
+            "image": "imgservice2",
+            "title": "Discharge English And Arabic To WordPress",
+            "description": "We Will Discharge E-Books To A Highly Accurate Word File",
+            "Link": "/Service2",
+            "href": "",
+            "id": 2
+        },
+        {
+            "image": "imgservice3",
+            "title": "Design Of Banznis Card",
+            "description": "(((Please Read The Full Description))))",
+            "Link": "/Service3",
+            "href": "",
+            "id": 3
+        },
+        {
+            "image": "imgservice4",
+            "title": "Design Of Transmitters",
+            "description": "((Design Letter Head Or Correspondence + Your Card Or Your Company))",
+            "Link": "/Service4",
+            "href": "",
+            "id": 4
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+ul.socialfix {
+    position: fixed;
+    left: 10px;
+    top: 50vh;
+    z-index: 50;
+    background: linear-gradient(to right, #5065a0, #27394f);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    transition: var(--main-transition);
+    li {
+        a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            font-size: 20px;
+            color: #fff;
+            transition: var(--main-transition);
+            &:hover {
+                color: var(--theme-color-secondary);
+            }
+        }
+    }
+}

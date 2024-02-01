@@ -1,0 +1,27 @@
+.address {
+    // background: url("../../../images/address/background.jpg") no-repeat;
+    background: url("../../../../public/images/address/background.jpg")
+        no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    padding-top: 125px;
+    padding-bottom: 50px;
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0.8;
+        background-image: var(--section-bg-5);
+        // background-image: linear-gradient(
+        //     to bottom,
+        //     var(--theme-color-primary),
+        //     var(--theme-color-gradient)
+        // );
+    }
+    .container {
+        position: relative;
+    }
+}

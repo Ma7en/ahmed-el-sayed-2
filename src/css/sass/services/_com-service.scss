@@ -1,0 +1,73 @@
+// .services .content {
+//     .compontent {
+//         align-items: stretch;
+//         flex-direction: column-reverse;
+//         overflow: hidden;
+//         box-shadow: rgb(17 22 26 / 16%) 0px 0px 8px 0px, rgb(17 22 26 / 16%) 0px 4px 8px 0px, rgb(17 22 26 / 16%) 0px 8px 16px 0px;
+//         border-radius: 20px;
+//     }
+// }
+
+.services {
+    .content {
+        .cont,
+        .cont:nth-child(even) {
+            &.compontent {
+                align-items: stretch;
+                flex-direction: column-reverse;
+                overflow: hidden;
+                box-shadow: #11161a29 0px 0px 8px 0px, #11161a29 0px 4px 8px 0px,#11161a29 0px 8px 16px 0px;
+                border-radius: 20px;
+                .left {
+                    flex-basis: 100%;
+                    transform: translateX(0px) translateY(0px);
+                }
+                .left,
+                .right {
+                    border-radius: 0px;
+                }
+            }
+        }
+        // .cont.compontent,
+        // .cont.rtl
+        // .cont.compontent .left,
+        // .cont.rtl.compontent .left {
+        // }
+        // .cont.compontent .left,
+        // .cont.compontent .right {
+        //     border-radius: 0px;
+        // }
+    }
+}
+
+// .services .content .cont.compontent,
+// .services .content .cont.rtl.compontent {
+
+//     -webkit-border-radius: 20px;
+//     -moz-border-radius: 20px;
+//     -ms-border-radius: 20px;
+//     -o-border-radius: 20px;
+// }
+
+// .services .content .cont.compontent .left,
+// .services .content .cont.rtl.compontent .left {
+//     flex-basis: 100%;
+//     transform: translateX(0px) translateY(0px);
+//     -webkit-transform: translateX(0px) translateY(0px);
+//     -moz-transform: translateX(0px) translateY(0px);
+//     -ms-transform: translateX(0px) translateY(0px);
+//     -o-transform: translateX(0px) translateY(0px);
+// }
+
+// .services .content .cont.compontent .left,
+// .services .content .cont.compontent .right {
+//     border-radius: 0px;
+//     -webkit-border-radius: 0px;
+//     -moz-border-radius: 0px;
+//     -ms-border-radius: 0px;
+//     -o-border-radius: 0px;
+// }
+
+// .services .content .cont.compontent .right img {
+//     max-height: 500px;
+// }

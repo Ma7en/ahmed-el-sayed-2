@@ -1,0 +1,51 @@
+.dashcreateser {
+    .container {
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            padding: 20px 0px;
+            .row {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                label {
+                    font-size: 20px;
+                    text-transform: capitalize;
+                }
+                input,
+                textarea {
+                    border: 1px solid #000;
+                    border-radius: 5px;
+                    padding: 10px;
+                    font-size: 18px;
+                    caret-color: var(--theme-color-primary);
+                    color: var(--theme-color-primary);
+                    &:focus {
+                        box-shadow: 5px 5px 10px 0px var(--theme-color-primary);
+                    }
+                }
+                textarea {
+                    min-height: 200px;
+                }
+                button {
+                    text-align: center;
+                    display: inline-block;
+                    width: fit-content;
+                    position: relative;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    background-color: #0d6efd;
+                    color: #fff;
+                    padding: 10px 10px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    user-select: none;
+                }
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,28 @@
+.ads {
+    padding: 75px 0px 75px;
+    .ad {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 100%;
+        min-height: 280px;
+        max-height: 280px;
+        background-color: var(--card-bg-2);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        h2 {
+            cursor: default;
+            text-transform: capitalize;
+            color: var(--font-color-5);
+            transition: var(--main-transition);
+            -webkit-transition: var(--main-transition);
+            -moz-transition: var(--main-transition);
+            -ms-transition: var(--main-transition);
+            -o-transition: var(--main-transition);
+        }
+    }
+}

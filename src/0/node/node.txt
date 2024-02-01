@@ -1,0 +1,468 @@
+
+
+a11=react js library
+mohamed essa
+
+
+===============================
+
+app.js
+import logo from "./logo.svg";
+<img src={logo} className="App-logo" alt="logo" />
+
+<header className="App-header">
+    <p>
+        Edit <code>src/App.js</code> and save to reload.
+    </p>
+    <a
+        className="App-link"
+        href="https://reactjs.org"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        Learn React
+    </a>
+</header>
+        // <div className="App">
+        //     <h1>my name is {name} </h1>
+        //     <p>my age is {age}</p>
+        //     <p>{["11", "22"]}</p>
+        //     <a href="www">face</a>
+        // </div>
+
+===============================
+
+الدرس رقم 7
+onclick = 
+
+
+
+
+
+===============================
+
+
+posts
+{/* {posts.map((post)=>(
+    <div key={post.id}>
+        <h1>{post.title}</h1>
+        <p>{post.body}</p>
+    </div>
+))} */}
+{/* ========= */}
+
+
+
+
+
+
+
+===============================
+
+
+
+posts.js
+
+import React from "react";
+import { data, error, post } from "jquery";
+import { useState, useEffect } from "react";
+import Postslist from "./postslist";
+import Postsmodel from "./postsmodel";
+
+const Posts = () => {
+    const { isWaiting, serverError, posts } = Postsmodel("http://localhost:3002/posts");
+    // const [checkAuth, setCheckAuth] = useState("false");
+    // let [posts1, setPost1] = useState([
+    //     {
+    //         userId: 1,
+    //         id: 1,
+    //         title: "sunt aut facer",
+    //         body: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, omnis.",
+    //     },
+    //     {
+    //         userId: 1,
+    //         id: 2,
+    //         title: "sunt aut facer",
+    //         body: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, omnis.",
+    //     },
+    //     {
+    //         userId: 1,
+    //         id: 3,
+    //         title: "sunt aut facer",
+    //         body: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, omnis.",
+    //     },
+    //     {
+    //         userId: 1,
+    //         id: 4,
+    //         title: "sunt aut facer",
+    //         body: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, omnis.",
+    //     },
+    //     {
+    //         userId: 1,
+    //         id: 5,
+    //         title: "sunt aut facer",
+    //         body: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, omnis.",
+    //     },
+    // ]);
+    // const deleteAction = (id) => {
+    //     const updatePosts = posts.filter((post) => post.id != id);
+    //     setPost(updatePosts);
+    // };
+
+    return (
+        <div className="container">
+            {/* <button
+                onClick={() => {
+                    setCheckAuth("true");
+                }}
+                type="button"
+                className="btn btn-danger"
+            >
+                Delete
+            </button>
+            <h1>status: {checkAuth}</h1> */}
+            {serverError && <h1>{serverError}</h1>}
+            {isWaiting && <h1>plase wait to load data.... </h1>}
+            <Postslist posts={posts} name="Posts" />
+            {/* <Postslist posts={posts} name="Posts" deleteAction={deleteAction} /> */}
+        </div>
+    );
+};
+
+export default Posts;
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+
+
+===============================
+
+
+
+
+
+
+
+
+

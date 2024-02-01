@@ -1,0 +1,45 @@
+.materials {
+    padding: 50px 0px 100px;
+    > .container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 50px;
+            .box {
+                flex: 1 0 30%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                gap: 10px;
+                .image {
+                    img {
+                        width: 100%;
+                        max-width: 140px;
+                        height: 100%;
+                    }
+                }
+                .text {
+                    h4 {
+                        text-transform: capitalize;
+                        color: var(--font-color-4);
+                        transition: var(--main-transition);
+                    }
+                }
+                &:hover {
+                    .text {
+                        h4 {
+                            color: var(--main-color);
+                            transition: var(--main-transition);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
